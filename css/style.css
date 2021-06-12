@@ -1,3 +1,4 @@
+/* Set the background and color of text on the body */
 body {
     font-family: "Arial",sans-serif;
     font-size: 14px;
@@ -5,21 +6,25 @@ body {
     background: #333;
 }
 
+/* Color all the anchor tags white and remove default text-decoration of underlining  */
 a {
     color: #fff;
     text-decoration: none;
 }
 
+/* Center text of all the h1 tag */
 h1 {
     text-align: center;
 }
 
+/* Define width, margin of the contained, and make overflow to be auto to avoid unnecessary scrolling */
 .container {
     width: 540px;
     margin: 40px auto;
     overflow: auto;
 }
 
+/* Define the stlyes of the div holding all the images */
 .slider-inner {
     width: 500px;
     height: 300px;
@@ -30,16 +35,19 @@ h1 {
     border: #666 solid 1px;
 }
 
+/* Get individual image in the div and change display to none, then define the width and height */
 .slider-inner img {
     display: none;
     width: 500px;
     height: 300px;
 }
 
+/* Change display of the image have the active class to inline-block */
 .slider-inner img.active {
     display: inline-block;
 }
 
+/* Define general behavior of the next and prev class */
 .next,
 .prev {
     float: left;
@@ -47,6 +55,7 @@ h1 {
     cursor: pointer;
 }
 
+/* Define indivial behavior of prev and next  relative to the above general defination */
 .prev {
     position: relative;
     margin-right: -45px;

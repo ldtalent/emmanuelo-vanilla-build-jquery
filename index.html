@@ -1,24 +1,62 @@
 <!DOCTYPE html>
+
 <html>
+
     <head>
+
         <title>JQSlider</title>
+
         <link rel="stylesheet" href="css/style.css">
+        <!-- 
+            Import jQueryClone.js first as it has the core functions to be used by main.js 
+            Or, you can pass the defer keyword to the main.js like 
+            <script src="js/main.js" defer></script> incase loaded before the jQueryClone.js 
+            so that it loads after the rest of the contents are loaded.
+        -->
+        <script src="js/main.js" defer></script>
         <script src="jQueryClone.js"></script>
-        <script src="js/main.js"></script>
+
     </head>
+
     <body>
+
         <div class="container">
+
             <h1>JQSlider</h1>
+
             <div class="slider-outer">
+
+                <!-- The previous button -->
                 <img src="images/arrow-left.png" class="prev" alt="Prev">
+
+                <!-- Elements for the slideshow -->
                 <div class="slider-inner">
                     <img src="images/image1.jpg" class="active">
                     <img src="images/image2.jpg">
                     <img src="images/image3.jpg">
                     <img src="images/image4.jpg">
                 </div>
+
+                <!-- The next button -->
                 <img src="images/arrow-right.png" class="next" alt="Next">
+
             </div>
+
         </div>
+
+        <hr>
+
+        <!-- HTML elements to test the custom built functions by using class selector -->
+
+        <h4 style="text-align: center;">Demonstrating use of the custom functions</h4>
+
+        <div style="display:flex; justify-content:space-evenly">
+            <div class="bold-text">Bold Text</div>
+            <div class="color-text">Make me green</div>
+            <div class="bold-and-color-text">Bold and make me green</div>
+            <div class="underline-text">Underline me</div>
+        </div>
+
     </body>
+
 </html>
