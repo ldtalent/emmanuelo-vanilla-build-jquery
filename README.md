@@ -1,5 +1,5 @@
 # emmanuelo-vanilla-build-jquery
-### How to use vanilla JS to build a basic a cutome jQuery global function
+### How to use vanilla JS to build a basic a custom jQuery global function
 
 # Usage.
 
