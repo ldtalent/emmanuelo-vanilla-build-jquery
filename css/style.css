@@ -17,14 +17,14 @@ h1 {
     text-align: center;
 }
 
-/* Define width, margin of the contained, and make overflow to be auto to avoid unnecessary scrolling */
+/* Define width, margin of the container, and make overflow to be auto to avoid unnecessary scrolling */
 .container {
     width: 540px;
     margin: 40px auto;
     overflow: auto;
 }
 
-/* Define the stlyes of the div holding all the images */
+/* Define the styles of the div holding all the images */
 .slider-inner {
     width: 500px;
     height: 300px;
@@ -42,7 +42,7 @@ h1 {
     height: 300px;
 }
 
-/* Change display of the image have the active class to inline-block */
+/* Change display of the image having the active class to inline-block */
 .slider-inner img.active {
     display: inline-block;
 }

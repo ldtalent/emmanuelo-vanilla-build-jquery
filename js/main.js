@@ -12,14 +12,20 @@ $(document)
                 const nextImg = currentImg.next()
 
                 /**
-                 * Check is there is a next image then perform an action
+                 * Check if there is a next image then perform an action
                  */
                 if (nextImg.length) {
 
+                    /**
+                     * Remove the active class from the current image and hide it behind the next image
+                     */
                     currentImg
                         .removeClass("active")
                         .css("z-index", -10)
 
+                    /**
+                     * Add the active class to the next image and show it infront of the current image
+                     */
                     nextImg
                         .addClass("active")
                         .css("z-index", 10)

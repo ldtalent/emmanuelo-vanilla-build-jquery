@@ -1,0 +1,20 @@
+{
+  "name": "customised-jquery-obuae",
+  "version": "1.2.0",
+  "description": "This is a customised jquery library with extra features for manipulating the DOM elements",
+  "main": "jQueryClone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learningdollars/emmanuelo-vanilla-build-jquery.git"
+  },
+  "keywords": ["jQuery","JavaScript"],
+  "author": "EmmanuelObua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learningdollars/emmanuelo-vanilla-build-jquery/issues"
+  },
+  "homepage": "https://github.com/learningdollars/emmanuelo-vanilla-build-jquery#readme"
+}
